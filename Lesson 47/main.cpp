@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 void rand_init(int* vector, int size, int bound);
 int max(int* vector, int size);
@@ -10,7 +10,10 @@ int main() {
 	cin >> size;
 	int* vector = new int [size];
 
-	rand_init();
+	rand_init(vector,  size,100 );
+	 cout<<max( vector,  size)<<endl;
+	 cout<<min( vector,  size)<<endl;
+	 cout << convert(vector, size);
 
 	delete[]vector;
 	return 0;
