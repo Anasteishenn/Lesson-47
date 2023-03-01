@@ -1,5 +1,6 @@
-#include <iostream>
-#include <string>
+#include "main.h"
+#include"util.h"
+#include"logic.h"
 using namespace std;
 
 string convert(int* vector, int size)
