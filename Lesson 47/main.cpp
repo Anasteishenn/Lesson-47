@@ -11,9 +11,9 @@ int main() {
 	int* vector = new int [size];
 
 	rand_init(vector,  size,100 );
-	 cout<<max( vector,  size)<<endl;
-	 cout<<min( vector,  size)<<endl;
-	 cout << convert(vector, size);
+	 cout<<"Max: "<<max(vector, size) << endl;
+	 cout<<"Min: "<<min(vector, size) << endl;
+	 cout <<"Vector: "<< convert(vector, size);
 
 	delete[]vector;
 	return 0;
